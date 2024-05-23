@@ -512,13 +512,40 @@ blockquote{
     line-height: 1.5;
     margin-bottom: 40px;
   }
+  .const-mejora img{
+    width: 100%;
+    align-items: center;
+  }
   .time-imputs{
     margin-top: 40px;
     border: 3px solid transparent;
     transition: all 400ms ease; 
   }
+  .time-imputs h2{
+    font-size: 45px;
+    line-height: 1;
+    color: white;
+    margin: 0 0 45px;
+  }
+  .time-imputs p{
+    color: white;
+    font-size: 23px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+  }
+  .time-imputs h3{
+    font-size: 23px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+  .time-imputs h4{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
   .time-imputs:hover{
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
     transform: translateY(-3%);
   }   
   .time-imputs ul{
