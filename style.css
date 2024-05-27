@@ -382,6 +382,7 @@
   .triptico{
     position: relative;
     margin-top: 3%; 
+    margin-bottom: 3%;
   }
   .triptico h2{
     font-size: 45px;
@@ -453,10 +454,11 @@
     width: 45%;
     text-align: left;
     margin-bottom: 20px; 
+    align-items: center;
 }
 .q-gen-f{
     border-radius: 50%;
-    width: 200px;
+    width: 150px;
     height: auto;
     object-fit: cover;
     margin-left: 24%;
@@ -837,9 +839,23 @@ blockquote{
     transition: all 0.3s ease;
     transform: translateX(3%);
   }
-  
+
   /**Area Responsive, falta buscar una forma mas optima para hacerlo, sino a mano/**/
   
+  @media (max-width: 1650px){
+    .container{
+        width: 200%;
+        height: auto;
+    }
+  }
+
+  @media (max-width: 1480px){
+    .container{
+        width: 150%;
+        height: auto;
+    }
+  }
+
   @media (max-width: 1535px){
     header{
         padding: 15px 3%;
@@ -873,6 +889,11 @@ blockquote{
     }
     .entrada-text h5{
         margin-bottom: 25px;
+    }
+  }
+  @media (max-width: 1245px){
+    .video-festivaleras{
+      width: 90%;
     }
   }
   @media (max-width: 1195px){
