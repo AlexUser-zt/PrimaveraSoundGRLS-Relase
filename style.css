@@ -1261,5 +1261,41 @@ blockquote{
       width: 100%;
   }
   }
-  
+  @media (max-width: 768px) {
+    .entrada {
+        padding: 10px;
+    }
+
+    .entrada-text h1 {
+        font-size: 2rem;
+    }
+
+    .entrada-text p {
+        font-size: 1rem;
+    }
+
+    .but1, .tvid {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .cubo {
+      display: none;
+    }
+
+}
+@media (max-width: 480px) {
+    .entrada-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .entrada-text p {
+        font-size: 0.9rem;
+    }
+
+    .but1, .tvid {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}
   
